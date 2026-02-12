@@ -1,0 +1,40 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {},
+  "name": "NYC_Taxi_Dataflow",
+  "queryGroups": [],
+  "documentLocale": "en-US",
+  "queriesMetadata": {
+    "green_tripdata_2022": {
+      "queryId": "58605f5f-1c8d-48fb-b6e8-24c6d4e0cc51",
+      "queryName": "green_tripdata_2022"
+    },
+    "nyc_taxi_green_discounts": {
+      "queryId": "3b72684b-2619-4b9e-848b-35938d9f7ecb",
+      "queryName": "nyc_taxi_green_discounts"
+    },
+    "Output": {
+      "queryId": "944d6246-0ebb-4a3a-885b-c7829eadd085",
+      "queryName": "Output",
+      "loadEnabled": false
+    },
+    "Output_DataDestination": {
+      "queryId": "33199cd6-ce22-4dc8-8285-a16d65142776",
+      "queryName": "Output_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "PUlocationID": {
+      "queryId": "08590a1b-286f-4b7d-b952-45fb09c5bb8a",
+      "queryName": "PUlocationID",
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"abcd11c8-e852-4708-8447-a52ced8b064f\",\"DatasourceId\":\"9a37aa1e-0648-4c7e-b804-5dda66cf8d75\"}"
+    }
+  ]
+}
